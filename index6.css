@@ -1,0 +1,162 @@
+.noto-sans-jp-uniquifier {
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+  
+body {
+    font-family: Verdana, serif;
+    background-color: #ECBEC5;
+}*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+header,footer {
+    position: absolute;
+    background-color: #DF6B7C;
+    width: 100%;
+    color: #772732;
+}
+header h3 {
+    position: absolute;
+    margin-top: 20px;
+    left: 4%;
+}
+header {
+    height: 10vh;
+}
+
+footer {
+    height: 97px;
+    bottom: 0;
+    position: absolute;
+}
+
+footer h2 {
+    position: absolute;
+    left: 1%;
+    margin-top: 110px;
+    font-size: 17px;
+}
+
+.Crush {
+    position: absolute;
+    margin-top: 1.7%;
+    font-size: 32px;
+    font-family: "Noto Sans JP";
+    font-weight: 400;
+}
+
+.logo-header1 {
+    width: 65px;
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 30px;
+}
+
+.logo-header2 {
+    width: 35px;
+    position: absolute;
+    margin-left: 1670px;
+    margin-top: 50px;
+}
+
+.logo-header3 {
+    width: 35px;
+    position: absolute;
+    margin-left: 1720px;
+    margin-top: 50px;
+}
+
+.logo-header4 {
+    width: 35px;
+    position: absolute;
+    margin-left: 1770px;
+    margin-top: 50px;
+}
+
+.logo-header5 {
+    width: 35px;
+    position: absolute;
+    margin-left: 1820px;
+    margin-top: 50px;
+}
+
+.logo-header6 {
+    width: 35px;
+    position: absolute;
+    margin-top: 18px;
+    margin-left: 10px;
+}
+
+.logo-header7 {
+    width: 35px;
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 18px;
+}
+
+.logo-header8 {
+    width: 35px;
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 18px;
+}
+
+.logo-header9 {
+    width: 35px;
+    position: absolute;
+    margin-left: 160px;
+    margin-top: 18px;
+}
+
+.logo-header10 {
+    width: 35px;
+    position: absolute;
+    margin-left: 210px;
+    margin-top: 18px;
+}
+
+.foot {
+    position: absolute;
+    margin-top: 65px;
+    border-radius: 24%;
+    font-family: 'Noto Sans JP';
+}
+
+.footik {
+    position: absolute;
+    height: 70px;
+    width: 255px;
+    margin-top: 13px;
+    border: 3px solid #772732;
+    border-radius: 17px 17px 17px 17px;
+    right: 3%;
+}
+
+.boyka {
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 450px;
+    height: 560px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: absolute;
+}
+
+.man {
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 450px;
+    height: 560px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
