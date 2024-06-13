@@ -138,15 +138,16 @@ footer h2 {
 }
 
 .boyka {
-    margin-top: 30px;
-    margin-left: 20px;
-    width: 450px;
-    height: 560px;
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 120px;
+    width: 1700px;
+    height: 600px;
+    background-color: #F1DADD;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-    position: absolute;
 }
 
 .man {
