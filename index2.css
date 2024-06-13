@@ -4,7 +4,210 @@
     font-weight: weight;
     font-style: normal;
 }
-  
+
+.Crush {
+    position: absolute;
+    padding-left: 4%;
+}
+
+.otaku {
+    display: flex;
+    align-items: last baseline;
+}
+
+body, html {
+    font-family: Verdana, serif;
+    background-color: #ECBEC5;
+    display: inline-block;
+	flex-direction: column;
+}
+
+header,footer {
+    display: flex;
+    position: absolute;
+    background-color: #DF6B7C;
+    width: 100%;
+    color: #772732;
+    min-width: 1260px;
+}
+
+header h3 {
+
+    margin-top: 20px;
+    left: 4%;
+}
+header {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+}
+
+.save {
+    margin-left: 40%;
+    margin-top: 13.5%;
+    z-index: 3;
+    display: flex;
+}
+
+#file1 {
+    position: relative;
+    z-index: 2;
+}
+
+#image1 {
+    position: absolute;
+    margin-top: -105%;
+    margin-left: -50%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    z-index: 1;
+}
+
+#name {
+    background-color: #ECBEC5;
+    width: 335px;
+    height: 50px;
+    border: 3px solid #ECBEC5;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size: 18px;
+    color: #8B494C ;
+}
+
+#surname {
+    background-color: #ECBEC5;
+    width: 335px;
+    height: 50px;
+    border: 3px solid #ECBEC5;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size: 18px;
+    color: #8B494C ;
+}
+
+#password1 {
+    background-color: #ECBEC5;
+    width: 335px;
+    height: 50px;
+    border: 3px solid #ECBEC5;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size: 18px;
+    color: #8B494C ;
+}
+
+#password2 {
+    background-color: #ECBEC5;
+    width: 335px;
+    height: 50px;
+    border: 3px solid #ECBEC5;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size: 18px;
+    color: #8B494C ;
+}
+
+#email {
+    background-color: #ECBEC5;
+    width: 710px;
+    height: 50px;
+    border: 3px solid #ECBEC5;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size: 18px;
+    color: #8B494C;
+}
+
+#dr {
+    background-color: #ECBEC5;
+    width: 440px;
+    height: 45px;
+    border: 3px solid #ECBEC5;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size: 18px;
+    color: #8B494C;
+}
+
+#gorod {
+    background-color: #ECBEC5;
+    width: 440px;
+    height: 45px;
+    border: 3px solid #ECBEC5;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size: 18px;
+    color: #8B494C;
+}
+
+#arty3 {
+    background-color: #ECBEC5;
+    width: 950px;
+    height: 50px;
+    border: 3px solid #ECBEC5;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size: 18px;
+    color: #8B494C;
+}
+
+#osebe {
+    background-color: #ECBEC5;
+    width: 950px;
+    height: 50px;
+    border: 3px solid #ECBEC5;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size: 18px;
+    color: #8B494C;
+}
+
+#pers {
+    background-color: #ECBEC5;
+    width: 950px;
+    height: 50px;
+    border: 3px solid #ECBEC5;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size: 18px;
+    color: #8B494C;
+}
+
+#anim {
+    background-color: #ECBEC5;
+    width: 950px;
+    height: 50px;
+    border: 3px solid #ECBEC5;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size: 18px;
+    color: #8B494C;
+}
+
 body {
     font-family: Verdana, serif;
     background-color: #ECBEC5;
@@ -12,7 +215,7 @@ body {
     margin: 0;
     padding: 0;
     
-}
+} 
 
 header,footer {
     position: absolute;
@@ -152,7 +355,7 @@ footer h2 {
 }
 
 .zaversh {
-    margin-top: 17px;
+    margin-top: 18px;
     color: #772732;
     font-family: "Noto Sans JP";
 }
@@ -228,7 +431,7 @@ footer h2 {
 .koneq {
     background-color: #ECBEC5;
     position: absolute;
-    margin-top: 63%;
+    margin-top: 57%;
     width: 180px;
     height: 70px;
     margin-left: 38%;
@@ -240,10 +443,29 @@ footer h2 {
     font-size: 22px
 }
 
+.custom-btn {
+    position: absolute;
+    margin-top: -10%;
+    margin-left: -49.7%;
+    width: 180px;
+    height: 70px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #ECBEC5;
+    font-family: 'Noto Sans JP';
+    font-size: 26px;
+    font-weight: 400;
+    color: #7D2935;
+    z-index: 2;
+    border: 3px solid #772732;
+}  
+
 .character {
     background-color: #ECBEC5;
     position: absolute;
-    margin-top: 57%;
+    margin-top: 44%;
     width: 955px;
     height: 50px;
     margin-left: 2%;
@@ -267,7 +489,7 @@ footer h2 {
 .anime {
     background-color: #ECBEC5;
     position: absolute;
-    margin-top: 50%;
+    margin-top: 51%;
     width: 955px;
     height: 50px;
     margin-left: 2%;
@@ -288,12 +510,13 @@ footer h2 {
     font-family: "Noto Sans JP";
 }
 
+
 .ocebe {
     background-color: #ECBEC5;
     position: absolute;
     margin-top: 37%;
     width: 955px;
-    height: 110px;
+    height: 50px;
     margin-left: 2%;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;

@@ -11,12 +11,10 @@
 </head>
 <body>
     <header>
-      <img class="logo-header1" src="pics/logo.png" alt="профиль сайта">
-      <h3 class="Crush">Otaku Crush</h3>
-      <img class="logo-header2" src="pics/profile.png" alt="Логотип сайта">
-      <img class="logo-header3" src="pics/notifications.png" alt="Уведлы сайта">
-      <img class="logo-header4" src="pics/settings.png" alt="Настройки сайта">
-      <img class="logo-header5" src="pics/exit.png" alt="Выход сайта">
+        <div class="otaku">
+            <img class="logo-header1" src="pics/logo.png" alt="профиль сайта">
+            <h1 class="Crush">Otaku Crush</h1>
+        </div>
     </header>
     <article class="columns-2"></article>
     <div class="reg-block">       
@@ -28,41 +26,46 @@
                 <p class="reg22">Регистрация</p>
                 <p class="reg11">Давай сделаем твой аккаунт!</p>
             </div>
-            <div class="name">
-                <p class="namik">Ваше имя</p>
+            <form>
+                <div class="name" ><input type="text" name="surname" placeholder="Ваше имя" id="name">
+                </div>
+                <div class="surname"><input type="text" name="surname" placeholder="Ваша фамилия" id="surname">
+                </div>
+                <div class="email"><input type="text" name="surname" placeholder="Ваш email" id="email">
+                </div>
+                <div class="pass"><input type="password" name="surname" placeholder="Придумайте пароль" id="password1">
+                </div>
+                <div class="povpass"><input type="password" name="surname" placeholder="Повторите пароль" id="password2">
+                </div>
+                <div class="data"><input type="text" name="surname" placeholder="Ваша дата рождения" id="dr">
+                </div>
+                <div class="city"><input type="text" name="surname" placeholder="Ваш город/область" id="gorod">
+                </div>
+                <div class="kamerka">
+            </form> 
+                <script src="reg.js">
+                    function save ()  {
+                        let f = file1.files[0];
+                        if (f) {
+                            image1.src = URL.createObjectURL(f);
+                            localStorage.setItem('myImage', image1.src);
+                        }
+                    }
+                    image1.src = localStorage.getItem('myImage');
+                </script>    
+                <img class="camera2" src="pics/cameraForReg.png" alt="камера"><input type="file" id="file1" />
+                <button class="save" onclick="save()">Save</button>
+                <img id="image1" width="200px" height="190px" />
+                <br>
             </div>
-            <div class="surname">
-                <p class="familik">Ваша фамилия</p>
+            <div class="ocebe"><input type="text" name="surname" placeholder="О себе" id="osebe">
             </div>
-            <div class="email">
-                <p class="mail">Ваш email</p>
+            <div class="anime"><input type="text" name="surname" placeholder="Ваше любимое аниме" id="anim">
             </div>
-            <div class="pass">
-                <p class="passik">Придумайте пароль</p>
-            </div>
-            <div class="povpass">
-                <p class="povpassik">Повторите пароль</p>
-            </div>
-            <div class="data">
-                <p class="datka">Ваша дата рождения</p>
-            </div>
-            <div class="city">
-                <p class="gorod">Ваш город/область</p>
-            </div>
-            <div class="kamerka">
-                <img class="camera2" src="pics/cameraForReg.png" alt="камера"> 
-            </div>
-            <div class="ocebe">
-                <p class="osebe">О себе</p>
-            </div>
-            <div class="anime">
-                <p class="animeshki">Ваше любимое аниме</p>
-            </div>
-            <div class="character">
-                <p class="char">Ваши любимые персонажи</p>
+            <div class="character"><input type="text" name="surname" placeholder="Ваши любимые персонажи" id="pers">
             </div>
             <div class="koneq">
-                <p class="zaversh">Завершить</p>
+                <p class="zaversh"><button type="custom-btn btn-3" id="knopka"><span>Заверщить</span></button></p>
             </div>
         </div>
     </div>
