@@ -1,0 +1,381 @@
+.noto-sans-jp-uniquifier {
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+  
+body, html {
+    font-family: Verdana, serif;
+    background-color: #ECBEC5;
+    display: inline-block;
+	flex-direction: column;
+
+}*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.osn-block {
+    flex: 1;
+    display: inline-block;
+}
+
+.Crush {
+    position: absolute;
+    padding-left: 3%;
+}
+
+.otaku {
+    display: flex;
+    align-items: last baseline;
+}
+
+header,footer {
+    display: flex;
+    position: absolute;
+    background-color: #DF6B7C;
+    width: 100%;
+    color: #772732;
+    min-width: 1260px;
+}
+
+header h3 {
+
+    margin-top: 20px;
+    left: 4%;
+}
+header {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+}
+
+.logo-header1 {
+    width: 55px;
+    height: 55px;
+}
+
+footer {
+    height: 97px;
+    bottom: 0;
+    width: auto;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+footer h2 {
+    left: 1%;
+    margin-top: 110px;
+    font-size: 17px;
+}
+
+.osn-title1 {
+    margin-top: 110px;
+    margin-bottom: 1px;
+    column-count: 1;
+    background-color: #fde0e5;
+    width: 581px;
+    height: 69px;
+    margin-left: 30px;
+    color: #7D2935;
+    font-family: Arial;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.osn-title2 {
+    margin-top: 170px;
+    margin-bottom: 130px;
+    column-count: 1;
+    background-color: #F3D1D6;
+    margin-left: 700px;
+    break-inside: avoid;
+}
+
+.logo-search {
+    width: 35px;
+    margin-top: 20px;
+    margin-left: 8px;
+}
+
+.kek {
+    column-count: 1;
+    background-color: #DF6B7C;
+    width: 581px;
+    height: 454px;
+    margin-left: 30px;
+    font-size: 26px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    text-align: left;
+    box-shadow: 7px 10px 6px rgba(125, 41, 53, 0.5);
+}
+
+.kek2 {
+    background-color: #F3D1D6;
+    width: 581px;
+    height: 69px;
+    margin-left: 30px;
+    color: #7D2935;
+    font-size: 26px;
+    font-family: 'Noto Sans JP';
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    font-weight: 400;
+    box-shadow: 7px 10px 6px rgba(125, 41, 53, 0.5);
+}
+
+.kekis {
+    margin-top: 1px;
+    margin-bottom: 80px;
+    margin-right: 100px;
+}
+
+.osn-description {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-family: 'Noto Sans JP';
+    margin-left: 10px;
+    color: #EFCAD0;
+    font-weight: 400;
+}
+
+.osnova {
+    padding-top: 5%;
+    margin-left: 70px;
+    width: 500px;
+    height: 500px;
+}
+
+.osnova2 {
+    position: relative;
+    flex: 1;
+    display: flex;
+    margin-top: -75%;
+    margin-left: 130%;
+    background-color: #F3D1D6;
+    width: 110.5%;
+    height: 520px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: -7px 10px 4px 0px rgba(125, 41, 53, 0.5);
+}
+
+.finalo4ka {
+    margin-left: 13.7%; 
+    margin-top: 365px;
+    font-family: 'Noto Sans JP';
+    font-size: 26px;
+    font-weight: 400;
+    color: #7D2935;
+}
+
+.boy1 {
+    padding-top: 71px;
+    width: 330px;
+    height: 370px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size: 20;
+    z-index: 1;
+}
+
+.girl1 {
+    padding-top: 22%;
+    padding-left: 21%;
+    width: 330px;
+    height: 365px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.reg {
+    width: 730px;
+    position: absolute;
+    background-color: #DF6B7C;
+    height: 79px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    font-family: 'Noto Sans JP';
+    font-size: 26;
+    font-weight: 400;
+}
+
+
+.registr {
+    position: absolute;
+    margin-left: 7%; 
+    padding-top: 17px;
+    font-family: 'Noto Sans JP';
+    font-size: 26px;
+    font-weight: 400;
+    color: #F3D1D6;
+}
+
+.Onas {
+    margin-top: 16px;
+    margin-left: 60px;
+    position: absolute;
+    font-family: 'Noto Sans JP';
+    font-size: 26;
+    font-weight: 400;
+}
+
+.Crush {
+    position: absolute;
+    margin-top: 1.7%;
+    font-size: 32px;
+    font-family: "Noto Sans JP";
+    font-weight: 400;
+}
+
+.logo-header2 {
+    width: 35px;
+    position: absolute;
+    margin-left: 1670px;
+    margin-top: 50px;
+}
+
+.logo-header3 {
+    width: 35px;
+    position: absolute;
+    margin-left: 1720px;
+    margin-top: 50px;
+}
+
+.logo-header4 {
+    width: 35px;
+    position: absolute;
+    margin-left: 1770px;
+    margin-top: 50px;
+}
+
+.logo-header5 {
+    width: 35px;
+    position: absolute;
+    margin-left: 1820px;
+    margin-top: 50px;
+}
+
+.logo-header6 {
+    width: 35px;
+    position: absolute;
+    margin-top: 18px;
+    margin-left: 10px;
+}
+
+.logo-header7 {
+    width: 35px;
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 18px;
+}
+
+.logo-header8 {
+    width: 35px;
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 18px;
+}
+
+.logo-header9 {
+    width: 35px;
+    position: absolute;
+    margin-left: 160px;
+    margin-top: 18px;
+}
+
+.logo-header10 {
+    width: 35px;
+    position: absolute;
+    margin-left: 210px;
+    margin-top: 18px;
+}
+
+.foot {
+    position: absolute;
+    margin-top: 65px;
+    border-radius: 24%;
+    font-family: 'Noto Sans JP';
+}
+
+.footik {
+    position: absolute;
+    height: 70px;
+    width: 255px;
+    margin-top: 13px;
+    border: 3px solid #772732;
+    border-radius: 17px 17px 17px 17px;
+    right: 3%;
+}
+
+.logo-search2 {
+    margin-left: 5px;
+    margin-top: 30px;
+    width: 35px;
+    height: 35px;
+}
+
+.logo-search3 {
+    margin-left: 19px;
+    width: 35px;
+    height: 35px;
+}
+
+.rezerv {
+    position: absolute;
+    background-color: #F794AF;
+    width: 75px;
+    height: 35px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-top: 5px;
+    right: 45%;
+    box-shadow: 0px 8px 4px #C98E98;
+}
+
+.custom-btn {
+    position: absolute;
+    margin-top: -10%;
+    margin-left: 10.3%;
+    width: 170px;
+    height: 50px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #F794AF;
+    font-family: 'Noto Sans JP';
+    font-size: 26px;
+    font-weight: 400;
+    color: #7D2935;
+    z-index: 2;
+}   
+
+.custom-btn2 {
+    position: absolute;
+    margin-left: 20.7%;
+    margin-top: -10%;
+    width: 170px;
+    height: 50px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #F794AF;
+    font-family: 'Noto Sans JP';
+    font-size: 26px;
+    font-weight: 400;
+    color: #7D2935;
+}
