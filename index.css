@@ -5,24 +5,25 @@
     font-style: normal;
 }
   
-body {
+body, html {
     font-family: Verdana, serif;
     background-color: #ECBEC5;
-    display: flex;
+    display: inline-block;
 	flex-direction: column;
+
 }*{
     margin: 0;
     padding: 0;
     
 }
 
-@media screen and (min-width: 600px){
-    .osnova2 {
-        display: block;
-    }
+.osn-block {
+    flex: 1;
+    display: inline-block;
 }
 
 .Crush {
+    position: absolute;
     padding-left: 3%;
 }
 
@@ -40,17 +41,13 @@ header,footer {
     min-width: 1260px;
 }
 
-.all-header {
-    position: fixed;
-    display: flex;
-}
-
 header h3 {
 
     margin-top: 20px;
     left: 4%;
 }
 header {
+    width: 100%;
     height: 10vh;
     display: flex;
 }
@@ -154,20 +151,74 @@ footer h2 {
 }
 
 .osnova2 {
-    overflow: hidden;
-    position: absolute;
+    position: relative;
+    flex: 1;
     display: flex;
-    right :6%;
+    margin-top: -75%;
+    margin-left: 130%;
     background-color: #F3D1D6;
-    width: 40.5%;
+    width: 110.5%;
     height: 520px;
-    margin-top: 10%;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     box-shadow: -7px 10px 4px 0px rgba(125, 41, 53, 0.5);
+}
 
+.finalo4ka {
+    margin-left: 13.7%; 
+    margin-top: 365px;
+    font-family: 'Noto Sans JP';
+    font-size: 26px;
+    font-weight: 400;
+    color: #7D2935;
+}
+
+.boy1 {
+    padding-top: 71px;
+    width: 330px;
+    height: 370px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size: 20;
+    z-index: 1;
+}
+
+.girl1 {
+    padding-top: 22%;
+    padding-left: 21%;
+    width: 330px;
+    height: 365px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.reg {
+    width: 730px;
+    position: absolute;
+    background-color: #DF6B7C;
+    height: 79px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    font-family: 'Noto Sans JP';
+    font-size: 26;
+    font-weight: 400;
+}
+
+
+.registr {
+    position: absolute;
+    margin-left: 7%; 
+    padding-top: 17px;
+    font-family: 'Noto Sans JP';
+    font-size: 26px;
+    font-weight: 400;
+    color: #F3D1D6;
 }
 
 .Onas {
@@ -267,115 +318,11 @@ footer h2 {
     right: 3%;
 }
 
-.boy1 {
-    overflow: hidden;
-    width: 330px;
-    height: 370px;
-    margin-top: 80px;
-    left: 5%;
-    position: absolute;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    font-size: 20;
-}
-
-.girl1 {
-    overflow: hidden;
-    width: 330px;
-    height: 370px;
-    margin-top: 79px;
-    right: 5%;
-    position: absolute;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-}
-
-.boy {
-    position: absolute;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    background-color: #F794AF;
-    height: 40px;
-    width: 170px;
-    margin-top: 380px;
-    margin-left: 123px;
-    text-align: center;
-    padding-top: 11px;
-    color: #7D2935;
-    font-family: 'Noto Sans JP';
-    font-size: 24px;
-}
-
-.girl {
-    position: absolute;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    background-color: #F794AF;
-    height: 40px;
-    width: 170px;
-    margin-top: 380px;
-    margin-left: 465px;
-    text-align: center;
-    padding-top: 11px;
-    color: #7D2935;
-    font-family: 'Noto Sans JP';
-    font-size: 24px;
-}
-
-.reg {
-    background-color: #DF6B7C;
-    height: 79px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    font-family: 'Noto Sans JP';
-    font-size: 26;
-    font-weight: 400;
-    width: 100%;
-}
-
-.registr {
-    position: absolute;
-    margin-left: 7%; 
-    margin-top: 27px;
-    font-family: 'Noto Sans JP';
-    font-size: 26px;
-    font-weight: 400;
-    color: #F3D1D6;
-}
-
 .logo-search2 {
     margin-left: 5px;
     margin-top: 30px;
     width: 35px;
     height: 35px;
-}
-
-.final {
-    background-color: #FDE0E5;
-    margin-top: 49%;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    height: 82px;
-    box-shadow: -2px 8px 4px 0px rgba(145, 100, 107, 0.5);
-
-}
-
-.finalo4ka {
-    position: absolute;
-    margin-left: 13.7%; 
-    margin-top: -7px;
-    font-family: 'Noto Sans JP';
-    font-size: 26px;
-    font-weight: 400;
-    color: #7D2935;
 }
 
 .logo-search3 {
@@ -393,38 +340,39 @@ footer h2 {
     border-top-right-radius: 15px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-    margin-top: 35px;
+    margin-top: 5px;
     right: 45%;
     box-shadow: 0px 8px 4px #C98E98;
 }
 
 .custom-btn {
     position: absolute;
+    margin-top: -10%;
+    margin-left: 10.3%;
     width: 170px;
-    height: 51px;
+    height: 50px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-    margin-top: -11px;
-    left: -0.3%;
     background-color: #F794AF;
     font-family: 'Noto Sans JP';
     font-size: 26px;
     font-weight: 400;
     color: #7D2935;
+    z-index: 2;
 }   
 
 .custom-btn2 {
     position: absolute;
+    margin-left: 20.7%;
+    margin-top: -10%;
     width: 170px;
-    height: 51px;
+    height: 50px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-    margin-top: -11px;
-    left: -0.3%;
     background-color: #F794AF;
     font-family: 'Noto Sans JP';
     font-size: 26px;
