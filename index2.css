@@ -56,8 +56,7 @@ header {
 
 #image1 {
     position: absolute;
-    margin-top: -105%;
-    margin-left: -50%;
+    margin-left: -62.5%;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     border-bottom-left-radius: 15px;
@@ -460,6 +459,7 @@ footer h2 {
     color: #7D2935;
     z-index: 2;
     border: 3px solid #772732;
+    cursor: pointer
 }  
 
 .character {
@@ -590,12 +590,10 @@ footer h2 {
     width: 200px;
     height: 190px;
     margin-left: 77.3%;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+    border-radius: 15px;
     text-align: center;
-    font-size: 22px
+    font-size: 22px;
+    cursor: pointer;
 }
 
 .camera2 {
