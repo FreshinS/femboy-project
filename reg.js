@@ -33,7 +33,11 @@ document.getElementById('registrationForm').addEventListener('submit', async fun
     const about = document.getElementById('about').value;
     const anime = document.getElementById('anime').value;
     const characters = document.getElementById('characters').value;
-    const sex = "man";
+    let sex;
+
+    const path = window.location.pathname;
+    if (path === '/index2.html') sex = 'man'; 
+    else if (path === '/index3.html') sex = 'woman'
 
     console.log(JSON.stringify({
             name: name,
