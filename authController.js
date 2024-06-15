@@ -20,14 +20,14 @@ class authController {
             if (!errors.isEmpty()) {
                 return res.status(400).json({message: "Ошибка при регистрации", errors})
             } 
-            const {username, password} = req.body
-            const candidate = await User.findOne({username})
+            const {name, surname, avatar, email, sex, password, city, birthday, about, characters, anime} = req.body
+            const candidate = await User.findOne({email})
             if (candidate) {
-                return res.status(400).json({message: "Пользователь c таким именем уже существует"})
+                return res.status(400).json({message: "Пользователь c этой почтой уже зарегистрирован"})
             }
             const hashPassword = bcrypt.hashSync(password, 7);
             const userRole = await Role.findOne({value: "USER"})
-            const user = new User({username, password: hashPassword, roles: [userRole.value]})
+            const user = new User({name: name, surname: surname, avatar: avatar, email: email, sex: sex, password: hashPassword, city: city, birthday: birthday, about: about, characters: characters, anime: anime, roles: [userRole.value]})
             await user.save()
             return res.json({message: "Пользователь успешно зарегистрирован"})
         } catch (e) {
