@@ -38,10 +38,10 @@ class authController {
 
     async login(req, res) {
         try {
-            const {username, password} = req.body
-            const user = await User.findOne({username})
+            const {email, password} = req.body
+            const user = await User.findOne({email})
             if (!user) {
-                return res.status(400).json({message: "Пользователя c таким именем не существует"})
+                return res.status(400).json({message: "Пользователя c таким электронной почтой не существует"})
             }
             const validPassword = bcrypt.compareSync(password, user.password)
             if (!validPassword) {
