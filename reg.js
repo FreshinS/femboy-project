@@ -1,36 +1,81 @@
-let name = document.querySelector('#name')
-let surname = document.querySelector('#surname')
-let osebe = document.querySelector('#osebe')
-let gorod = document.querySelector('#gorod')
-let submit = document.querySelector('#submit')
-let password2 = document.querySelector('#password2')
+document.getElementById('registrationForm').addEventListener('submit', async function(event) {
+    event.preventDefault();
 
-let users = {};
+    const avatarInput = document.getElementById('avatar');
+    const avatarFile = avatarInput.files[0];
 
-function User(name, surname, password2) {
-	this.name = name;
-	this.surname = surname;
-	this.password2 = password2;
+    let uploadedAvatarUrl = '';
+    if (avatarFile) {
+        const formData = new FormData();
+        formData.append('avatar', avatarFile);
 
-} 
+        const uploadResponse = await fetch('http://localhost:5500/upload', {
+            method: 'POST',
+            body: formData,
+        });
 
-function createId(users) {
-	return Object.keys(users).length;
-}
+        if (uploadResponse.ok) {
+            const uploadResult = await uploadResponse.json();
+            uploadedAvatarUrl = uploadResult.url;
+        } else {
+            console.error('Failed to upload avatar');
+            return;
+        }
+    }
 
-let image1 = document.getElementById('image1');
+    
+    const name = document.getElementById('name').value;
+    const surname = document.getElementById('surname').value;
+    const password = document.getElementById('password').value;
+    const email = document.getElementById('email').value;
+    const birthday = document.getElementById('birthday').value;
+    const city = document.getElementById('city').value;
+    const about = document.getElementById('about').value;
+    const anime = document.getElementById('anime').value;
+    const characters = document.getElementById('characters').value;
+    let sex;
 
-if (submit) {
-    submit.addEventListener('click', () => {
-        const nameUser = name.value;
-        const surnameUser = surname.value;
-        const password2User = password2.value;
+    const path = window.location.pathname;
+    if (path === '/index2.html') sex = 'man'; 
+    else if (path === '/index3.html') sex = 'woman'
 
-        const user = new User(nameUser, surnameUser, password2User);
+    console.log(JSON.stringify({
+            name: name,
+            surname: surname,
+            email: email,
+            sex: sex,
+            password: password,
+            city: city,
+            birthday: birthday,
+            avatar: uploadedAvatarUrl,
+            about: about,
+            characters: characters,
+            anime: anime}));
 
-        const userId = 'User' + createId(users);
-        users[userId] = user;
+    const response = await fetch('http://localhost:5500/auth/registration', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+            name: name,
+            surname: surname,
+            email: email,
+            sex: sex,
+            password: password,
+            city: city,
+            birthday: birthday,
+            avatar: uploadedAvatarUrl,
+            about: about,
+            characters: characters,
+            anime: anime
+        })
+    });
 
-        console.log(users)
-    })
-};
+    if (response.ok) {
+        const result = await response.json();
+        console.log('User registered:', result);
+    } else {
+        console.error('Registration failed');
+    }
+});

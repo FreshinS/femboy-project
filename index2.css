@@ -90,7 +90,7 @@ header {
     color: #8B494C ;
 }
 
-#password1 {
+#password {
     background-color: #ECBEC5;
     width: 335px;
     height: 50px;
@@ -142,7 +142,7 @@ header {
     color: #8B494C;
 }
 
-#gorod {
+#city {
     background-color: #ECBEC5;
     width: 440px;
     height: 45px;
@@ -168,7 +168,7 @@ header {
     color: #8B494C;
 }
 
-#osebe {
+#about {
     background-color: #ECBEC5;
     width: 950px;
     height: 50px;
@@ -181,7 +181,7 @@ header {
     color: #8B494C;
 }
 
-#pers {
+#characters {
     background-color: #ECBEC5;
     width: 950px;
     height: 50px;
@@ -194,7 +194,7 @@ header {
     color: #8B494C;
 }
 
-#anim {
+#anime {
     background-color: #ECBEC5;
     width: 950px;
     height: 50px;
@@ -568,7 +568,7 @@ footer h2 {
     font-family: "Noto Sans JP";
 }
 
-.data {
+.birthday {
     background-color: #ECBEC5;
     position: absolute;
     margin-top: 30%;
@@ -581,6 +581,35 @@ footer h2 {
     border-bottom-right-radius: 15px;
     text-align: center;
     font-size: 22px
+}
+
+input[type="date"] {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 15px;
+    background-color: transparent;
+    font-size: 18px;
+    padding: 0 15px;
+    box-sizing: border-box;
+    color: transparent;
+    font-family: "Noto Sans JP";
+}
+
+#birthday-placeholder {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: #757575;
+    font-size: 18px;
+    font-family: "Noto Sans JP";
+}
+
+input[type="date"]:focus {
+    color: #772732;
+    font-family: "Noto Sans JP";
 }
 
 .kamerka {

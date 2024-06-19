@@ -33,14 +33,11 @@ body, html {
 }
 
 header,footer {
-    display: flex;
     position: absolute;
     background-color: #DF6B7C;
     width: 100%;
     color: #772732;
-    min-width: 1260px;
 }
-
 header h3 {
 
     margin-top: 20px;
@@ -60,17 +57,16 @@ header {
 footer {
     height: 97px;
     bottom: 0;
-    width: auto;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
+    position: absolute;
 }
 
 footer h2 {
+    position: absolute;
     left: 1%;
     margin-top: 110px;
     font-size: 17px;
 }
+
 
 .osn-title1 {
     margin-top: 110px;

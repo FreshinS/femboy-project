@@ -11,21 +11,24 @@
 </head>
 <body>
     <header>
-        <img class="logo-header1" src="pics/logo.png" alt="профиль сайта">
-        <h3 class="Crush">Otaku Crush</h3>
+        <div class="otaku">
+            <img class="logo-header1" src="pics/logo.png" alt="профиль сайта">
+            <h1 class="Crush">Otaku Crush</h1>
+        </div>
     </header>
 
-    <div class="registration-container">
-        <h1>Вход</h1>
-        <div class="input-group">
-            <input type="text" placeholder="Ваш логин">
+    <form id="loginForm" class ="login">
+        <div class="registration-container">
+            <h1>Вход</h1>
+            <div class="input-group">
+                <input type="text" id="email" placeholder="Ваш email">
+            </div>
+            <div class="input-group">
+                <input type="password" id="password" placeholder="Ваш пароль">
+            </div>
+            <button class="custom-btn" type="submit">Завершить</button>
         </div>
-        <div class="input-group">
-            <input type="password" placeholder="Ваш пароль">
-        </div>
-        <button type="submit">Завершить</button>
-    </div>
-
+    </form>
     <footer>
         <h2 class="foot">© OOO "Фембойчики" 2024</h2>
         <div class="footik-wrapper">
@@ -38,5 +41,6 @@
             </div>
         </div>
     </footer>
+    <script type="module" src="login.js"></script>
 </body>
 </html>
