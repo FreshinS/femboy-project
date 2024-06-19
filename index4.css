@@ -80,7 +80,6 @@ footer h2 {
 }
 
 .Crush {
-    position: absolute;
     margin-top: 1.7%;
     font-size: 32px;
     font-family: "Noto Sans JP";
@@ -294,6 +293,8 @@ footer h2 {
     font-size: 18px;
     resize: none; 
     background-color: #F1B7C0;
+    overflow-wrap: break-word;
+    overflow: hidden;
 }
 
 .input-text2 {
@@ -308,6 +309,8 @@ footer h2 {
     font-size: 18px;
     resize: none; 
     background-color: #F1B7C0;
+    overflow-wrap: break-word;
+    overflow: hidden;
 }
 
 .input-text3 {
@@ -322,4 +325,6 @@ footer h2 {
     font-size: 18px;
     resize: none; 
     background-color: #F1B7C0;
+    overflow-wrap: break-word;
+    overflow: hidden;
 }
