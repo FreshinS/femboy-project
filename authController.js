@@ -63,6 +63,16 @@ class authController {
             console.log(e)
         }
     }
+
+    async getUserInfo(req, res) {
+        const email = req.body
+        try {
+            const user = await User.find(email)
+            res.json(user)
+        } catch (e) {
+            console.log(e)
+        }
+    }
 }
 
 module.exports = new authController()

@@ -21,7 +21,9 @@ document.getElementById('loginForm').addEventListener('submit', async function(e
         const result = await response.json();
         console.log('User login succesfully:', result);
         Cookies.set('token', result.token);
+        Cookies.set('email', email);
         console.log(`cookie jwt: ${Cookies.get('token')}`);
+        window.location.pathname = '/index4.html';
     } else {
         console.error('Login failed');
     }

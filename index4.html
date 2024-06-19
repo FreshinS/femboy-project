@@ -17,20 +17,20 @@
     <div class="rega1">
         <p class="profile">Мой профиль</p>
         <hr class="a1"></hr>
-        <p class="anita"> <localStorage.setItem("surname")></p>
-        <p class="data">Дата рождения: 13.05.2001</p>
-        <p class="city">Мой город: Санкт-Петербург</p>
+        <p class="anita" id="name"> </p>
+        <p class="data" id="birthday">Дата рождения:</p>
+        <p class="city" id="city">Мой город:</p>
         <div class="obomne">
             <p class="osebe">О себе:</p>
             <p id="about" class="input-text1"></p>
             <hr>
             <p class="an">Любимые аниме:</p>
-            <p id="favorite_anime" class="input-text2"></p>
+            <p id="anime" class="input-text2"></p>
             <hr>
             <p class="personaji">Любимые персонажи:</p>
-            <p id="favorite_characters" class="input-text3"></p>
+            <p id="characters" class="input-text3"></p>
         </div>
-        <img class= 'logo-search1' src="pics/girl3.jpg" alt="Девушка">  
+        <img class= 'logo-search1' id="avatar" src="pics/girl3.jpg" alt="Девушка">  
     </div>
     </article>
     <footer>
@@ -43,6 +43,6 @@
         </div>
         <h2 class="foot"> © OOO "Фембойчики" 2024</h2>
     </footer>
-    
+    <script type="module" src="profile.js"></script>
 </body>
 </html>

@@ -75,6 +75,7 @@ document.getElementById('registrationForm').addEventListener('submit', async fun
     if (response.ok) {
         const result = await response.json();
         console.log('User registered:', result);
+        window.location.pathname = '/index6.html';
     } else {
         console.error('Registration failed');
     }
