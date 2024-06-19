@@ -1,0 +1,741 @@
+.noto-sans-jp-uniquifier {
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.Crush {
+    position: absolute;
+    padding-left: 4%;
+}
+
+.otaku {
+    display: flex;
+    align-items: last baseline;
+}
+
+body, html {
+    font-family: Verdana, serif;
+    background-color: #ECBEC5;
+    display: inline-block;
+	flex-direction: column;
+}
+
+header,footer {
+    display: flex;
+    position: absolute;
+    background-color: #DF6B7C;
+    width: 100%;
+    color: #772732;
+    min-width: 1260px;
+}
+
+header h3 {
+
+    margin-top: 20px;
+    left: 4%;
+}
+header {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+}
+
+.save {
+    margin-left: 40%;
+    margin-top: 13.5%;
+    z-index: 3;
+    display: flex;
+}
+
+#file1 {
+    position: relative;
+    z-index: 2;
+}
+
+#image1 {
+    position: absolute;
+    margin-left: -62.5%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    z-index: 1;
+}
+
+#name {
+    background-color: #ECBEC5;
+    width: 335px;
+    height: 50px;
+    border: 3px solid #ECBEC5;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size: 18px;
+    color: #8B494C ;
+}
+
+#surname {
+    background-color: #ECBEC5;
+    width: 335px;
+    height: 50px;
+    border: 3px solid #ECBEC5;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size: 18px;
+    color: #8B494C ;
+}
+
+#password1 {
+    background-color: #ECBEC5;
+    width: 335px;
+    height: 50px;
+    border: 3px solid #ECBEC5;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size: 18px;
+    color: #8B494C ;
+}
+
+#password2 {
+    background-color: #ECBEC5;
+    width: 335px;
+    height: 50px;
+    border: 3px solid #ECBEC5;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size: 18px;
+    color: #8B494C ;
+}
+
+#email {
+    background-color: #ECBEC5;
+    width: 710px;
+    height: 50px;
+    border: 3px solid #ECBEC5;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size: 18px;
+    color: #8B494C;
+}
+
+#dr {
+    background-color: #ECBEC5;
+    width: 440px;
+    height: 45px;
+    border: 3px solid #ECBEC5;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size: 18px;
+    color: #8B494C;
+}
+
+#gorod {
+    background-color: #ECBEC5;
+    width: 440px;
+    height: 45px;
+    border: 3px solid #ECBEC5;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size: 18px;
+    color: #8B494C;
+}
+
+#arty3 {
+    background-color: #ECBEC5;
+    width: 950px;
+    height: 50px;
+    border: 3px solid #ECBEC5;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size: 18px;
+    color: #8B494C;
+}
+
+#osebe {
+    background-color: #ECBEC5;
+    width: 950px;
+    height: 50px;
+    border: 3px solid #ECBEC5;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size: 18px;
+    color: #8B494C;
+}
+
+#pers {
+    background-color: #ECBEC5;
+    width: 950px;
+    height: 50px;
+    border: 3px solid #ECBEC5;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size: 18px;
+    color: #8B494C;
+}
+
+#anim {
+    background-color: #ECBEC5;
+    width: 950px;
+    height: 50px;
+    border: 3px solid #ECBEC5;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size: 18px;
+    color: #8B494C;
+}
+
+body {
+    font-family: Verdana, serif;
+    background-color: #ECBEC5;
+}*{
+    margin: 0;
+    padding: 0;
+    
+} 
+
+header,footer {
+    position: absolute;
+    background-color: #DF6B7C;
+    width: 100%;
+    color: #772732;
+}
+header h3 {
+    position: absolute;
+    margin-top: 20px;
+    left: 4%;
+}
+header {
+    height: 10vh;
+}
+
+footer {
+    height: 97px;
+    bottom: 0;
+    position: absolute;
+}
+
+footer h2 {
+    position: absolute;
+    left: 1%;
+    margin-top: 110px;
+    font-size: 17px;
+}
+
+.Crush {
+    position: absolute;
+    margin-top: 1.7%;
+    font-size: 32px;
+    font-family: "Noto Sans JP";
+    font-weight: 400;
+}
+
+.logo-header1 {
+    width: 65px;
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 30px;
+}
+
+.logo-header2 {
+    width: 35px;
+    position: absolute;
+    margin-left: 1670px;
+    margin-top: 50px;
+}
+
+.logo-header3 {
+    width: 35px;
+    position: absolute;
+    margin-left: 1720px;
+    margin-top: 50px;
+}
+
+.logo-header4 {
+    width: 35px;
+    position: absolute;
+    margin-left: 1770px;
+    margin-top: 50px;
+}
+
+.logo-header5 {
+    width: 35px;
+    position: absolute;
+    margin-left: 1820px;
+    margin-top: 50px;
+}
+
+.logo-header6 {
+    width: 35px;
+    position: absolute;
+    margin-top: 18px;
+    margin-left: 10px;
+}
+
+.logo-header7 {
+    width: 35px;
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 18px;
+}
+
+.logo-header8 {
+    width: 35px;
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 18px;
+}
+
+.logo-header9 {
+    width: 35px;
+    position: absolute;
+    margin-left: 160px;
+    margin-top: 18px;
+}
+
+.logo-header10 {
+    width: 35px;
+    position: absolute;
+    margin-left: 210px;
+    margin-top: 18px;
+}
+
+.foot {
+    position: absolute;
+    margin-top: 65px;
+    border-radius: 24%;
+    font-family: 'Noto Sans JP';
+}
+
+.footik {
+    position: absolute;
+    height: 70px;
+    width: 255px;
+    margin-top: 13px;
+    border: 3px solid #772732;
+    border-radius: 17px 17px 17px 17px;
+    right: 3%;
+}
+
+.rega {
+    background-color: #F1DADD;
+    width: 1000px;
+    height: 730px;
+    margin-left: 30px;
+    margin-top: 90px;
+    position: relative;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+}
+
+.zaversh {
+    margin-top: 18px;
+    color: #772732;
+    font-family: "Noto Sans JP";
+}
+
+.boy4 {
+    background-color: #8B494C;
+    width: 500px;
+    height: 650px;
+    position: relative;
+    margin-top: -690px;
+    margin-left: 1200px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.girl2 {
+    width: 490px;
+    height: 640px;
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 5px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.kryg1 {
+    position: absolute;
+    width: 70px;
+    margin-top: 560px;
+    margin-left: 15%;
+}
+
+.kryg2 {
+    position: absolute;
+    width: 70px;
+    margin-top: 560px;
+    margin-left: 65%;
+}
+
+.kryg3 {
+    position: absolute;
+    width: 70px;
+    margin-top: 560px;
+    margin-left: 40%;
+}
+
+.mic {
+    position: absolute;
+    width: 60px;
+    margin-top: 565px;
+    margin-left: 15.7%;
+}
+
+.call {
+    position: absolute;
+    width: 60px;
+    margin-top: 565px;
+    margin-left: 65.7%;
+}
+
+.camera {
+    position: absolute;
+    width: 60px;
+    margin-top: 565px;
+    margin-left: 40.7%;
+}
+
+
+.koneq {
+    background-color: #ECBEC5;
+    position: absolute;
+    margin-top: 57%;
+    width: 180px;
+    height: 70px;
+    margin-left: 38%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    text-align: center;
+    font-size: 22px
+}
+
+.custom-btn {
+    position: absolute;
+    margin-top: -10%;
+    margin-left: -49.7%;
+    width: 180px;
+    height: 70px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #ECBEC5;
+    font-family: 'Noto Sans JP';
+    font-size: 26px;
+    font-weight: 400;
+    color: #7D2935;
+    z-index: 2;
+    border: 3px solid #772732;
+    cursor: pointer
+}  
+
+.character {
+    background-color: #ECBEC5;
+    position: absolute;
+    margin-top: 44%;
+    width: 955px;
+    height: 50px;
+    margin-left: 2%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    text-align: center;
+    font-size: 22px
+}
+
+.char {
+    text-align: left;
+    font-size: 16px;
+    margin-top: 25px;
+    margin-left: 7px;
+    color: #772732;
+    font-family: "Noto Sans JP";
+}
+
+.anime {
+    background-color: #ECBEC5;
+    position: absolute;
+    margin-top: 51%;
+    width: 955px;
+    height: 50px;
+    margin-left: 2%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    text-align: center;
+    font-size: 22px
+}
+
+.animeshki {
+    text-align: left;
+    font-size: 16px;
+    margin-top: 25px;
+    margin-left: 7px;
+    color: #772732;
+    font-family: "Noto Sans JP";
+}
+
+
+.ocebe {
+    background-color: #ECBEC5;
+    position: absolute;
+    margin-top: 37%;
+    width: 955px;
+    height: 50px;
+    margin-left: 2%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    text-align: center;
+    font-size: 22px
+}
+
+.osebe {
+    text-align: left;
+    font-size: 16px;
+    margin-top: 87px;
+    margin-left: 7px;
+    color: #772732;
+    font-family: "Noto Sans JP";
+}
+
+.city {
+    background-color: #ECBEC5;
+    position: absolute;
+    margin-top: 30%;
+    width: 450px;
+    height: 50px;
+    margin-left: 2%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    text-align: center;
+    font-size: 22px
+}
+
+.gorod {
+    text-align: left;
+    font-size: 16px;
+    margin-top: 25px;
+    margin-left: 7px;
+    color: #772732;
+    font-family: "Noto Sans JP";
+}
+
+.datka {
+    text-align: left;
+    font-size: 16px;
+    margin-top: 25px;
+    margin-left: 7px;
+    color: #772732;
+    font-family: "Noto Sans JP";
+}
+
+.data {
+    background-color: #ECBEC5;
+    position: absolute;
+    margin-top: 30%;
+    width: 450px;
+    height: 50px;
+    margin-left: 52.4%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    text-align: center;
+    font-size: 22px
+}
+
+.kamerka {
+    background-color: #ECBEC5;
+    position: absolute;
+    margin-top: 9%;
+    width: 200px;
+    height: 190px;
+    margin-left: 77.3%;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.camera2 {
+    margin-top: 40%;
+    width: 50px;
+    margin-left: 1%;
+}
+
+.pass {
+    background-color: #ECBEC5;
+    position: absolute;
+    margin-top: 23%;
+    width: 335px;
+    height: 50px;
+    margin-left: 2%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    text-align: center;
+    font-size: 22px
+}
+
+.passik {
+    text-align: left;
+    font-size: 16px;
+    margin-top: 25px;
+    margin-left: 7px;
+    color: #772732;
+    font-family: "Noto Sans JP";
+}
+
+.povpass {
+    background-color: #ECBEC5;
+    position: absolute;
+    margin-top: 23%;
+    width: 335px;
+    height: 50px;
+    margin-left: 39.5%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    text-align: center;
+    font-size: 22px
+}
+
+.povpassik {
+    text-align: left;
+    font-size: 16px;
+    margin-top: 25px;
+    margin-left: 7px;
+    color: #772732;
+    font-family: "Noto Sans JP";
+}
+
+.email {
+    background-color: #ECBEC5;
+    position: absolute;
+    margin-top: 16%;
+    width: 710px;
+    height: 50px;
+    margin-left: 2%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    text-align: center;
+    font-size: 22px
+}
+
+.mail {
+    text-align: left;
+    font-size: 16px;
+    margin-top: 25px;
+    margin-left: 7px;
+    color: #772732;
+    font-family: "Noto Sans JP";
+}
+
+.name {
+    background-color: #ECBEC5;
+    position: absolute;
+    margin-top: 9%;
+    width: 335px;
+    height: 50px;
+    margin-left: 2%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    text-align: center;
+    font-size: 22px
+}
+
+.surname {
+    background-color: #ECBEC5;
+    position: absolute;
+    margin-top: 9%;
+    width: 335px;
+    height: 50px;
+    margin-left: 39.5%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    text-align: center;
+    font-size: 22px
+}
+
+.namik {
+    text-align: left;
+    font-size: 16px;
+    margin-top: 25px;
+    margin-left: 7px;
+    color: #772732;
+    font-family: "Noto Sans JP";
+}
+
+.familik {
+    text-align: left;
+    font-size: 16px;
+    margin-top: 25px;
+    margin-left: 7px;
+    color: #772732;
+    font-family: "Noto Sans JP";
+}
+
+.lol2 {
+    position: absolute;
+    margin-top: 0.2%;
+    margin-left: 20px;
+}
+
+.reg22 {
+    font-size: 30px;
+    color: #772732;
+    font-family: "Noto Sans JP";
+}
+
+.reg11 {
+    font-size: 16px;
+    color: #772732;
+    font-family: "Noto Sans JP";
+}

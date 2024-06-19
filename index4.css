@@ -80,7 +80,6 @@ footer h2 {
 }
 
 .Crush {
-    position: absolute;
     margin-top: 1.7%;
     font-size: 32px;
     font-family: "Noto Sans JP";
@@ -199,7 +198,7 @@ footer h2 {
 }
 
 .logo-search1 {
-    margin-top: -5.5%;
+    margin-top: -3.5%;
     margin-left: 20px;
     width: 450px;
     height: 560px;
@@ -231,13 +230,6 @@ footer h2 {
     margin-left: 510px;
     color: #772732;
     font-family: "Noto Sans JP";
-}
-
-._ {
-    margin-top: 30px;
-    margin-left: 510px;
-    color: #772732;
-    position: absolute;
 }
 
 .logo-search2 {
@@ -272,36 +264,67 @@ footer h2 {
     font-family: "Noto Sans JP";
     font-size: 20px;
 }
-.__ {
-    margin-top: 120px;
-    position: absolute;
-    
-}
 
 .an {
     margin-left: 5px;
-    margin-top: 155px;
     position: absolute;
     color: #772732;
     font-family: "Noto Sans JP";
     font-size: 20px;
 }   
 
-.__1 {
-    margin-top: 360px;
-    position: absolute;
-}
-
 .personaji {
     margin-left: 5px;
-    margin-top: 280px;
     position: absolute;
     color: #772732;
     font-family: "Noto Sans JP";
     font-size: 20px;
 }
 
-.__2 {
-    margin-top: 240px;
-    position: absolute;
+.input-text1 {
+    width: 97.6%;
+    height: 23%;
+    padding-top: 2.5%;
+    padding-left: 0.5%;
+    color: #772732;
+    margin-bottom: 20px;
+    border: 1px solid #F1B7C0;
+    border-radius: 5px;
+    font-size: 18px;
+    resize: none; 
+    background-color: #F1B7C0;
+    overflow-wrap: break-word;
+    overflow: hidden;
+}
+
+.input-text2 {
+    width: 97.6%;
+    height: 23%;
+    padding-top: 2.5%;
+    padding-left: 0.5%;
+    color: #772732;
+    margin-bottom: 20px;
+    border: 1px solid #F1B7C0;
+    border-radius: 5px;
+    font-size: 18px;
+    resize: none; 
+    background-color: #F1B7C0;
+    overflow-wrap: break-word;
+    overflow: hidden;
+}
+
+.input-text3 {
+    width: 97.6%;
+    height: 23%;
+    padding-top: 2.5%;
+    padding-left: 0.5%;
+    color: #772732;
+    margin-bottom: 20px;
+    border: 1px solid #F1B7C0;
+    border-radius: 5px;
+    font-size: 18px;
+    resize: none; 
+    background-color: #F1B7C0;
+    overflow-wrap: break-word;
+    overflow: hidden;
 }
