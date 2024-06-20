@@ -35,3 +35,6 @@
 *Спасибо за ваше внимание, мы вас всех любим!*
 
 ![Конец](https://media.giphy.com/media/4pjmklYD0lfQQ/giphy.gif)
+
+
+[![Maintainability](https://api.codeclimate.com/v1/badges/1d8951a83b6b2b4cefe9/maintainability)](https://codeclimate.com/github/FreshinS/otaku-crush/maintainability)
